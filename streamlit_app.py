@@ -45,7 +45,7 @@ if "last_prediction" not in st.session_state:
 # ======================
 # 모델 로드
 # ======================
-FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1uj2lD8goJDLo9uSg_8HcT4bxnl2trPc8")
+FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1cdbz-r9kShjyDwG8fujdaDUpwc_RObq7")
 MODEL_PATH = st.secrets.get("MODEL_PATH", "model.pkl")
 
 @st.cache_resource
@@ -74,7 +74,10 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
-}
+    labels[0] : {"texts": ["중국식 냉면은 맛있어"], "images" : ["https://cdn.pttimes.com/news/photo/201906/50978_51452_221.jpg"]},
+    labels[0] : {"texts": ["짜장면은 맛있어"], "images" : ["https://minio.nculture.org/amsweb-opt/multimedia_assets/5/13787/20519/c/13787-medium-size.jpg"]},
+    labels[0] : {"texts": ["짬뽕은 맛있어"], "images" : ["https://www.newiki.net/w/images/thumb/1/11/Jjampong.jpg/450px-Jjampong.jpg"]},
+    labels[0] : {"texts": ["탕수육은 맛있어"], "images" : ["https://homecuisine.co.kr/files/attach/images/142/073/002/99b983892094b5c6d2fc3736e15da7d1.JPG"]},
 
 # ======================
 # 유틸
