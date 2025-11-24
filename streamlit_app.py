@@ -75,9 +75,9 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
     labels[0] : {"texts": ["중국식 냉면은 맛있어"], "images" : ["https://cdn.pttimes.com/news/photo/201906/50978_51452_221.jpg"]},
-    labels[0] : {"texts": ["짜장면은 맛있어"], "images" : ["https://minio.nculture.org/amsweb-opt/multimedia_assets/5/13787/20519/c/13787-medium-size.jpg"]},
-    labels[0] : {"texts": ["짬뽕은 맛있어"], "images" : ["https://www.newiki.net/w/images/thumb/1/11/Jjampong.jpg/450px-Jjampong.jpg"]},
-    labels[0] : {"texts": ["탕수육은 맛있어"], "images" : ["https://homecuisine.co.kr/files/attach/images/142/073/002/99b983892094b5c6d2fc3736e15da7d1.JPG"]},
+    labels[0] : {"texts": ["짜장면은 맛있어"], "images" : ["https://www.canceranswer.co.kr/news/photo/202103/2199_3592_056.jpg"]},
+    labels[0] : {"texts": ["짬뽕은 맛있어"], "images" : ["https://i.namu.wiki/i/CiM-bNiUdLyHX3gG9J1khBNO-i08bAjenXURRY6Eein65tlLt2BAHeR-NgSreSIAizpdLQOS9rtwvp4_GFYdNojf9VNsCRPgicTp42XD8VABtORN2lVWmK29D_N0d9oNoC2I8E-YId116xE6g1yE8g.webp"]},
+    labels[0] : {"texts": ["탕수육은 맛있어"], "images" : ["https://i.namu.wiki/i/fyAke95ErS4VyJZH9NppWCsq-dYSp-WMD9C3G_1pjQhmNGh45XhfCPkHBlndjgSDMMXVQeTxAlyj9v7YUCRMEcPhvPWEEVdm9Qr7yxBSz-m_aXo-W2d9ny9M8J-D39fSDt2h2e-a2dz67LF33Eh49Q.webp"]},
 }
 # ======================
 # 유틸
