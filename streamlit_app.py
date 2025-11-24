@@ -75,9 +75,9 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
     labels[0] : {"texts": ["중국식 냉면은 맛있어"], "images" : ["https://cdn.pttimes.com/news/photo/201906/50978_51452_221.jpg"]},
-    labels[0] : {"texts": ["짜장면은 맛있어"], "images" : ["https://m.health.chosun.com/site/data/img_dir/2024/08/02/2024080201848_0.jpg"]},
-    labels[0] : {"texts": ["짬뽕은 맛있어"], "images" : ["https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/201706/05/37ff1e76-ab9c-4684-a1ff-1a1d0859a3b6.jpg"]},
-    labels[0] : {"texts": ["탕수육은 맛있어"], "images" : ["https://godomall.speedycdn.net/ec5d2a1c8483712efb957784c858b320/goods/1000008075/image/detail/1000008075_detail_089.jpg"]},
+    labels[1] : {"texts": ["짜장면은 맛있어"], "images" : ["https://m.health.chosun.com/site/data/img_dir/2024/08/02/2024080201848_0.jpg"]},
+    labels[2] : {"texts": ["짬뽕은 맛있어"], "images" : ["https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/201706/05/37ff1e76-ab9c-4684-a1ff-1a1d0859a3b6.jpg"]},
+    labels[3] : {"texts": ["탕수육은 맛있어"], "images" : ["https://godomall.speedycdn.net/ec5d2a1c8483712efb957784c858b320/goods/1000008075/image/detail/1000008075_detail_089.jpg"]},
 }
 # ======================
 # 유틸
