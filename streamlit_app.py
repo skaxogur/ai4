@@ -78,7 +78,7 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     labels[0] : {"texts": ["짜장면은 맛있어"], "images" : ["https://minio.nculture.org/amsweb-opt/multimedia_assets/5/13787/20519/c/13787-medium-size.jpg"]},
     labels[0] : {"texts": ["짬뽕은 맛있어"], "images" : ["https://www.newiki.net/w/images/thumb/1/11/Jjampong.jpg/450px-Jjampong.jpg"]},
     labels[0] : {"texts": ["탕수육은 맛있어"], "images" : ["https://homecuisine.co.kr/files/attach/images/142/073/002/99b983892094b5c6d2fc3736e15da7d1.JPG"]},
-
+}
 # ======================
 # 유틸
 # ======================
